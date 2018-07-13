@@ -6,8 +6,8 @@
     .description_btn {
         width: 200px;
         margin: 0 auto;
-      	margin-top: 30px;
-     	margin-bottom: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
         display: block;
         float: none;
     }
@@ -152,9 +152,12 @@
     .models_price p {
         font-size: 40px;
     }
+    .gallery_wrap {
+        height: 800px;
+    }
 }
 @media (max-width:768px){
-     .advantages_img {
+    .advantages_img {
         transform: scale(0.3);
         position: absolute;
         top: 100px;
@@ -344,4 +347,5 @@
     .catalog_item {
         height: 380px;
     }
+
 }
