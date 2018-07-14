@@ -156,6 +156,11 @@
     .gallery_wrap {
         height: 800px;
     }
+    .popup_img {
+        max-width: 800px;
+        width: 90%;
+        margin-top: 10%;
+    }
 }
 @media (max-width:768px){
     .advantages_img {
@@ -292,6 +297,9 @@
     .catalog_item {
         width: 40%;
     }
+    .popup_img {
+        margin-top: 20%;
+    }
 
 }
 @media (max-width:460px) {
@@ -320,6 +328,9 @@
         line-height: 28px;
         width: 40%;
         font-size: 16px;
+    }
+    .popup_img {
+        margin-top: 30%;
     }
     footer .description_btn {
         width: 150px;
