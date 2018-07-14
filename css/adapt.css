@@ -1,6 +1,7 @@
 @media (max-width:1170px) {
     .wrapper {
         width: 90%;
+        
         margin: 0 auto;
     }
     .description_btn {
@@ -291,9 +292,6 @@
     .catalog_item {
         width: 40%;
     }
-     .prod_item_img {
-        height: 200px;
-    }
 
 }
 @media (max-width:460px) {
@@ -345,10 +343,11 @@
         margin-top: 40px;
     }
     .prod_item_img {
-        height: 230px;
+        height: 260px;
     }
     .catalog_item {
         height: 380px;
     }
-  
+   
+
 }
