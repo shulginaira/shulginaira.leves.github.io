@@ -50,10 +50,16 @@
 		<form action="#">
 			<p class="form_title">ФОРМА ЗАКАЗА</p>
 			<div class="form_box">
-				<p class="form_text">Имя:</p>
-				<input type="text" class="form_name" placeholder="Имя">
+				<label for="form_name">Имя</label>
+				<input type="text" class="form_name" id="form_name" placeholder="Имя">
+			</div>
+			<div class="form_box">
+				<label for="form_tel">Телефон</label>
+				<input type="text" class="form_tel" id="form_tel" placeholder="Телефон">
+			</div>
+			<div class="form_box">
 				<select name="form_product" class="form_product" id="form_product">
-					<option>Товар</option>
+					<option><span>Товар</span></option>
 					<option value="БОТИНКИ LEVI’S LEATHER JAX BOOTS BLACK">БОТИНКИ LEVI’S LEATHER JAX BOOTS BLACK</option>
 					<option value="БОТИНКИ LEVI’SBR LEATHER JAX BOOTS BROWN">БОТИНКИ LEVI’SBR LEATHER JAX BOOTS BROWN</option>
 					<option value="САПОГИ LEVI’S LEATHER JAX BOOTS">САПОГИ LEVI’S LEATHER JAX BOOTS</option>
@@ -65,8 +71,6 @@
 				</select>
 			</div>
 			<div class="form_box">
-				<p class="form_text">Телефон:</p>
-				<input type="text" class="form_tel" value="" placeholder="Телефон">
 				<select name="form_size" class="form_size" id="form_size">
 					<option>Размер</option>
 					<option value="40">40</option>
